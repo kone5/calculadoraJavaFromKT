@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">calculadoraJavaFromKT</string>
+    <string name="numero_1">numero 1</string>
+    <string name="numero_2">numero 2</string>
+    <string name="resultado">Resultado</string>
+    <string name="restar">Restar</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division">Division</string>
+    <string name="sumar">sumar</string>
+</resources>

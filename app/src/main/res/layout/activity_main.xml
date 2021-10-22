@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="@string/numero_1"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="@string/numero_2"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:text="@string/resultado"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/suma"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="Sumar"
+        android:text="@string/sumar" />
+
+    <Button
+        android:id="@+id/resta"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="Restar"
+        android:text="@string/restar" />
+
+    <Button
+        android:id="@+id/multiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="Multiplicar"
+        android:text="@string/multiplicacion" />
+
+    <Button
+        android:id="@+id/dividir"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="Dividir"
+        android:text="@string/division" />
+</LinearLayout>
